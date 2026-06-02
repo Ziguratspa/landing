@@ -50,7 +50,7 @@ const projects = [
         description: "Dashboard de pronóstico climático con API",
         tech: ["React"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
-        hasDoubleLinks: false,
+        hasDoubleLinks: true,
         demoUrl: "https://ziguratspa.github.io/weather-dashboard/",
         repoUrl: "https://github.com/Ziguratspa/weather-dashboard.git",
         badge: "Dev"

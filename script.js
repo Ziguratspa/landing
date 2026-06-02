@@ -52,7 +52,7 @@ const projects = [
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
         demoUrl: "https://ziguratspa.github.io/weather-dashboard/",
-        repoUrl: null,
+        repoUrl: "https://github.com/Ziguratspa/weather-dashboard.git",
         badge: "Dev"
     }
 ];

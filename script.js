@@ -69,7 +69,7 @@ const projects = [
     {
         id: 7,
         title: " 💾 Consulta SQL automatizada",
-        description: "Consultas a base de datos Planta de tratamiento de Aguas usando",
+        description: "Consultas a base de datos Planta de tratamiento de Aguas",
         tech: ["Playwright/Typescript"],
         imageUrl: "https://i.ibb.co/7thsPytg/playwright.png",
         hasDoubleLinks: false,

@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         title: "🛒 Supermercado Cardal",
-        description: "Aplicación web para gestión empresarial de supermercado",
+        description: "Aplicación web CRUD para gestión empresarial de supermercado",
         tech: ["HTML5", "CSS3", "Javascript"],
         imageBg: "linear-gradient(135deg, #00b4db, #0083b0)",
         hasDoubleLinks: true,

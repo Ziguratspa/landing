@@ -166,7 +166,7 @@ function renderProjects() {
             singleBtn.target = '_blank';
             singleBtn.rel = 'noopener noreferrer';
             singleBtn.className = 'btn btn-single';
-            singleBtn.innerHTML = '🚀 Repositorio';
+            singleBtn.innerHTML = '📂 Repositorio';
             
             singleBtn.addEventListener('click', (e) => {
                 showTooltip(`Abriendo ${project.title}`, e);

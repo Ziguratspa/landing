@@ -75,7 +75,7 @@ const projects = [
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/suite-qa-aguas.git",
         repoUrl: null,
-        badge: "Testing"
+        badge: "QA testing"
     }
 ];
 

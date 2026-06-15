@@ -62,7 +62,6 @@ const projects = [
         tech: ["React"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: true,
-        demoUrl: null,
         repoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
         badge: "QA"
     }

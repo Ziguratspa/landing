@@ -35,7 +35,7 @@ const projects = [
     },
     {
         id: 4,
-        title: "🔐 Automatización API ",
+        title: "🔐 Automatización Test API ",
         description: "Pruebas de API REST con Postman",
         tech: ["JavaScript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
@@ -57,7 +57,7 @@ const projects = [
     },
     {
         id: 6,
-        title: "💾  WebDriver ",
+        title: " 🖥  WebDriver ",
         description: "Pruebas funcionales a web S.I.I.",
         tech: ["Selenium"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
@@ -65,6 +65,17 @@ const projects = [
         demoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
         repoUrl: null,
         badge: "QA testing"
+    },
+    {
+        id: 7,
+        title: " 💾 SQL test 1 ",
+        description: "Consultas a base de datos Planta de tratamiento de Aguas mediante pruebas.sql",
+        tech: ["Playwright"],
+        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        hasDoubleLinks: false,
+        demoUrl: "https://github.com/Ziguratspa/suite-qa-aguas.git",
+        repoUrl: null,
+        badge: "Testing"
     }
 ];
 

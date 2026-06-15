@@ -57,13 +57,13 @@ const projects = [
     },
     {
         id: 6,
-        title: "💾  Selenium Testing ",
+        title: "💾  WebDriver ",
         description: "Pruebas funcionales a web S.I.I.",
-        tech: ["React"],
+        tech: ["Selenium"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: true,
         repoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
-        badge: "QA"
+        badge: "QA testing"
     }
 ];
 

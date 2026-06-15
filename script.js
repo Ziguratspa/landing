@@ -62,7 +62,8 @@ const projects = [
         tech: ["Selenium"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
-        repoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
+        demoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
+        repoUrl: null,
         badge: "QA testing"
     }
 ];

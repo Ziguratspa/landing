@@ -54,6 +54,17 @@ const projects = [
         demoUrl: "https://ziguratspa.github.io/weather-dashboard/",
         repoUrl: "https://github.com/Ziguratspa/weather-dashboard.git",
         badge: "Dev"
+    },
+    {
+        id: 6,
+        title: "💾  Selenium Testing ",
+        description: "Pruebas funcionales a web S.I.I.",
+        tech: ["React"],
+        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        hasDoubleLinks: true,
+        demoUrl: null,
+        repoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
+        badge: "QA"
     }
 ];
 

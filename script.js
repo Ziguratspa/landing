@@ -5,7 +5,7 @@ const projects = [
         title: "🛒 Supermercado Cardal",
         description: "Aplicación web CRUD para gestión empresarial de supermercado",
         tech: ["HTML5", "CSS3", "Javascript"],
-        imageBg: "linear-gradient(135deg, #00b4db, #0083b0)",
+        imageUrl: "https://ibb.co/wNYG3QwN",
         hasDoubleLinks: true,
         demoUrl: "https://oliveradrianrubiorauldtap.infinityfreeapp.com",
         repoUrl: "https://github.com/ziguratspa/supermercadoCARDAL.git",

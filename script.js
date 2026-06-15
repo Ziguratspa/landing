@@ -36,7 +36,7 @@ const projects = [
     {
         id: 4,
         title: "🔐 Automatización Test API ",
-        description: "Pruebas de API",
+        description: "Suite de pruebas automatizadas para API REST",
         tech: ["Postman/JavaScript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
@@ -69,8 +69,8 @@ const projects = [
     {
         id: 7,
         title: " 💾 Consulta SQL automatizada",
-        description: "Consultas a base de datos Planta de tratamiento de Aguas usando Playwright",
-        tech: ["Typescript"],
+        description: "Consultas a base de datos Planta de tratamiento de Aguas usando",
+        tech: ["Playwright/Typescript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/suite-qa-aguas.git",

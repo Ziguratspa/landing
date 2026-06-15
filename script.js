@@ -14,7 +14,7 @@ const projects = [
     {
         id: 2,
         title: "📝 Formulario Ficha Médica",
-        description: "Formulario CRUD para datos médicos",
+        description: "Formulario web CRUD para datos médicos",
         tech: ["HTML", "CSS", "Javascript"],
         imageUrl: "https://i.ibb.co/v4x0QWtV/2.png",
         hasDoubleLinks: true,

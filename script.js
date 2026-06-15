@@ -68,9 +68,9 @@ const projects = [
     },
     {
         id: 7,
-        title: " 💾 SQL test 1 ",
-        description: "Consultas a base de datos Planta de tratamiento de Aguas mediante pruebas.sql",
-        tech: ["Playwright"],
+        title: " 💾 Consulta SQL automatizada",
+        description: "Consultas a base de datos Planta de tratamiento de Aguas usando Playwright",
+        tech: ["Typescript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/suite-qa-aguas.git",

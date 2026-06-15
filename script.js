@@ -61,7 +61,7 @@ const projects = [
         description: "Pruebas funcionales a web S.I.I.",
         tech: ["Selenium"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
-        hasDoubleLinks: true,
+        hasDoubleLinks: false,
         repoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
         badge: "QA testing"
     }
@@ -166,7 +166,7 @@ function renderProjects() {
             singleBtn.target = '_blank';
             singleBtn.rel = 'noopener noreferrer';
             singleBtn.className = 'btn btn-single';
-            singleBtn.innerHTML = '🚀 Visitar Proyecto';
+            singleBtn.innerHTML = '🚀 Repositorio';
             
             singleBtn.addEventListener('click', (e) => {
                 showTooltip(`Abriendo ${project.title}`, e);

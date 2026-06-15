@@ -59,7 +59,7 @@ const projects = [
         id: 6,
         title: " 🖥  WebDriver ",
         description: "Pruebas funcionales a web S.I.I.",
-        tech: ["Selenium"],
+        tech: ["Selenium/JavaScript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",

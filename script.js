@@ -36,8 +36,8 @@ const projects = [
     {
         id: 4,
         title: "🔐 Automatización Test API ",
-        description: "Pruebas de API REST con Postman",
-        tech: ["JavaScript"],
+        description: "Pruebas de API",
+        tech: ["Postman/JavaScript"],
         imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/postman-api-testing-portfolio.git",

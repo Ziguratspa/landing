@@ -1,4 +1,4 @@
-// Datos de los proyectos
+// Datos de los proyectos CON imageUrl
 const projects = [
     {
         id: 1,
@@ -16,7 +16,7 @@ const projects = [
         title: "📝 Formulario Ficha Médica",
         description: "Formulario CRUD para datos médicos",
         tech: ["HTML", "CSS", "Javascript"],
-        imageBg: "linear-gradient(135deg, #f093fb, #f5576c)",
+        imageUrl: "https://picsum.photos/id/26/400/200",
         hasDoubleLinks: true,
         demoUrl: "https://oliversportfolio.synergize.co",
         repoUrl: "https://github.com/ziguraspa/formulariofichamed.git",
@@ -27,7 +27,7 @@ const projects = [
         title: "💻 Automatización Web",
         description: "Pruebas E2E Headless usando Playwright",
         tech: ["JavaScript/TypeScript"],
-        imageBg: "linear-gradient(135deg, #a8edea, #fed6e3)",
+        imageUrl: "https://picsum.photos/id/0/400/200",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/qa-portfolio-2026.git",
         repoUrl: null,
@@ -38,7 +38,7 @@ const projects = [
         title: "🔐 Automatización Test API ",
         description: "Suite de pruebas automatizadas para API REST",
         tech: ["Postman/JavaScript"],
-        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        imageUrl: "https://picsum.photos/id/1/400/200",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/postman-api-testing-portfolio.git",
         repoUrl: null,
@@ -49,7 +49,7 @@ const projects = [
         title: "⛅️  Clima WebApp ",
         description: "Dashboard de pronóstico climático con API",
         tech: ["React"],
-        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        imageUrl: "https://picsum.photos/id/29/400/200",
         hasDoubleLinks: true,
         demoUrl: "https://ziguratspa.github.io/weather-dashboard/",
         repoUrl: "https://github.com/Ziguratspa/weather-dashboard.git",
@@ -60,7 +60,7 @@ const projects = [
         title: " 🖥  WebDriver ",
         description: "Pruebas funcionales a web S.I.I.",
         tech: ["Selenium/JavaScript"],
-        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        imageUrl: "https://picsum.photos/id/96/400/200",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/pruebas-sii-chile.git",
         repoUrl: null,
@@ -71,7 +71,7 @@ const projects = [
         title: " 💾 Consulta SQL automatizada",
         description: "Consultas a base de datos Planta de tratamiento de Aguas usando",
         tech: ["Playwright/Typescript"],
-        imageBg: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        imageUrl: "https://picsum.photos/id/100/400/200",
         hasDoubleLinks: false,
         demoUrl: "https://github.com/Ziguratspa/suite-qa-aguas.git",
         repoUrl: null,
@@ -98,7 +98,7 @@ function showTooltip(message, event) {
     }, 1500);
 }
 
-// Función para crear las tarjetas de proyectos
+// Función para crear las tarjetas de proyectos (MODIFICADA para usar imageUrl)
 function renderProjects() {
     const grid = document.getElementById('projectsGrid');
     grid.innerHTML = '';
@@ -107,10 +107,19 @@ function renderProjects() {
         const card = document.createElement('div');
         card.className = 'project-card';
         
-        // Imagen del proyecto (div con gradiente)
+        // Imagen del proyecto - USA imageUrl como fondo
         const imageDiv = document.createElement('div');
         imageDiv.className = 'project-image';
-        imageDiv.style.background = project.imageBg;
+        
+        // Usar imageUrl como fondo de imagen
+        if (project.imageUrl) {
+            imageDiv.style.backgroundImage = `url(${project.imageUrl})`;
+            imageDiv.style.backgroundSize = 'cover';
+            imageDiv.style.backgroundPosition = 'center';
+        } else {
+            // Fallback por si no hay imageUrl
+            imageDiv.style.background = "#cccccc";
+        }
         
         // Badge
         const badge = document.createElement('span');
@@ -172,7 +181,7 @@ function renderProjects() {
             buttonsContainer.appendChild(demoBtn);
             buttonsContainer.appendChild(repoBtn);
         } else {
-            // Botón único que lleva a la demo web
+            // Botón único que lleva al repositorio
             const singleBtn = document.createElement('a');
             singleBtn.href = project.demoUrl;
             singleBtn.target = '_blank';
@@ -200,11 +209,6 @@ function renderProjects() {
     });
 }
 
-// Efecto adicional: Mostrar mensaje de bienvenida en consola
-console.log("%c✨ Portafolio cargado | 4 proyectos listos", "color: #764ba2; font-size: 16px; font-weight: bold;");
-console.log("✅ Proyectos con doble enlace: ClimateVision y TaskFlow");
-console.log("🔗 Proyectos con enlace único: PixelArt Studio y PassGen Pro");
-
 // Seguimiento del mouse para tooltips
 document.addEventListener('mousemove', (e) => {
     const tooltip = document.querySelector('.tooltip-message');
@@ -229,4 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
             header.style.transform = 'translateY(0)';
         }, 100);
     }
+    
+    console.log("%c✨ Portafolio cargado con imágenes | 7 proyectos", "color: #764ba2; font-size: 16px; font-weight: bold;");
 });
